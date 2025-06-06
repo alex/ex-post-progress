@@ -85,7 +85,7 @@ fn main() -> Result<(), Box<dyn Error>> {
                     if e.kind() == io::ErrorKind::NotFound {
                         break;
                     } else {
-                        panic!("{:?}", e)
+                        panic!("{e:?}")
                     }
                 }
                 fdinfo.rewind().unwrap();
