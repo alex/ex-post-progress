@@ -6,4 +6,4 @@ edition = "2024"
 
 [dependencies]
 structopt = "0.3"
-indicatif = "0.17"
+indicatif = "0.18"
